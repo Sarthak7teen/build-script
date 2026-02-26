@@ -38,3 +38,4 @@ git clone https://github.com/munch-devs/android_hardware_dolby hardware/dolby
 
 . build/envsetup.sh
 axion munch userdebug va
+ax -br
