@@ -31,7 +31,8 @@ git clone https://github.com/munch-devs/android_hardware_dolby hardware/dolby
 
 git clone https://codeberg.org/munch-devs/android_vendor_xiaomi_miuicamera vendor/xiaomi/miuicamera
 
-
-. build/envsetup.sh
-axion munch userdebug va
+cd hard*/line*/compat/ &&git fetch https://github.com/LineageOS/android_hardware_lineage_compat refs/changes/04/447604/1 && git cherry-pick FETCH_HEAD && cd -
+source build/envsetup.sh
+gk -s
+axion munch va
 ax -br
